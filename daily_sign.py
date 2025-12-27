@@ -20,4 +20,4 @@ headers = {"Connection": 'keep-alive',
            }
 
 response = requests.post(url=url, headers=headers)
-print(response.text)
+print("app签到结果：",response.text)
