@@ -1,11 +1,10 @@
 import os
-import requests
-
 cookie = os.environ.get("JD_COOKIE_PC")
 
 import requests
+
 cookies = {
-    '^__jdv': '76161171^|direct^|-^|none^|-^|1766802930564',
+    '__jdv': '76161171|direct|-|none|-|1766802930564',
     '__jdu': '17668029305631544393914',
     'areaId': '1',
     'ipLoc-djd': '1-2805-0-0',
@@ -15,12 +14,12 @@ cookies = {
     'jcap_dvzw_fp': 'xSovnXGl_ZvBCvEIUFflnODfZR3i9_ec_HqhVzf7laL5QSoJdWNf-sLwQCSJz-at0z9r7atoLVY6gBClGyxVCWXP4XY=',
     'whwswswws': '',
     'commonAddress': '4551928385',
-    'regionAddress': '1^%^2C72^%^2C2819^%^2C0',
+    'regionAddress': '1%2C72%2C2819%2C0',
     'b_webp': '1',
     'b_avif': '1',
     'autoOpenApp_downCloseDate_auto': '1766807397666_1800000',
     'autoOpenApp_downCloseDate_jd_homePage': '1766821711058_1',
-    'warehistory': '^\\^10135446986182,^\\^',
+    'warehistory': '10135446986182,',
     'b_dw': '375',
     'b_dh': '667',
     'b_dpr': '2.000000013623918',
@@ -32,21 +31,22 @@ cookies = {
     'pin': 'jd_bFyOzGKCBbrj',
     'unick': 'u_5to9xq1ipqvl',
     'ceshi3.com': '000',
-    '_tp': '7uCzlC0AWm2^%^2BV4fNUZVFpQ^%^3D^%^3D',
+    '_tp': '7uCzlC0AWm2%2BV4fNUZVFpQ%3D%3D',
     '_pst': 'jd_bFyOzGKCBbrj',
     'wlfstk_smdl': 'w06bnossgs9i3i7aofbzhjafl1qgzarw',
-    'mail_times': '4^%^2C1^%^2C1766823285998',
+    'mail_times': '4%2C1%2C1766823285998',
     'umc_count': '1',
     'source': 'PC',
     'platform': 'pc',
     'shshshfpb': 'BApXWpzviXf5A3-9S2wQjYKeA6Zc7xzzPXTTV_qzo9xJ1MkV-Uo-25BYDQg',
     'joyya': '1766823996.1766824027.29.1ckfhr9',
-    '3AB9D23F7A4B3CSS': 'jdd03SWJPTXSPNC3YLWZEDIPA7YYXE55CHIHNYNII32REDFKHGUHXBPRHFGTNWPTIP3VIGEXNDKG47N5A6EBVWADELEDJ6EAAAAM3L4QCZYAAAAAACLACKEGW2JCP3MX',
-    'flash': '3_fPTOf2Iqf7aeusW2QMF-gWn4qwRf_1JOBXoKwbfTEkXeP1UpuhhPRGBUuqc1hn-pEjjkqscF2NLwqX5mMc5B-zZuFmGCUyYxUp5YUoGe219w5DtSDfmsBQs65d5qm93a3sZ9fhtY5yxjCrrLb1O3nB8N8XP1uYjoC83Wzys-CDaPPq9Z49vs',
+    '__jdc': '166561581',
     '3AB9D23F7A4B3C9B': 'SWJPTXSPNC3YLWZEDIPA7YYXE55CHIHNYNII32REDFKHGUHXBPRHFGTNWPTIP3VIGEXNDKG47N5A6EBVWADELEDJ6E',
-    '__jda': '76161171.17668029305631544393914.1766802931.1766821710.1766827503.4',
-    '__jdc': '76161171',
-    '__jdb': '76161171.4.17668029305631544393914^|4.1766827503^',
+    '__jda': '166561581.17668029305631544393914.1766802931.1766821710.1766827503.4',
+    '__jdb': '166561581.2.17668029305631544393914|4.1766827503',
+    '3AB9D23F7A4B3CSS': 'jdd03SWJPTXSPNC3YLWZEDIPA7YYXE55CHIHNYNII32REDFKHGUHXBPRHFGTNWPTIP3VIGEXNDKG47N5A6EBVWADELEDJ6EAAAAM3L4QCZYAAAAAACLACKEGW2JCP3MX',
+    '_gia_d': '1',
+    'flash': '3_fPTOf2Iqf7aeusW2QMF-gWn4qwRf_1JOBXoKwbfTEkXeP1UpuhhPRGBUuqc1hn-pEjjkqscF2NLwqX5mMc5B-zZuFmGCUyYxUp5YUoGe219w5DtSDfmsBQs65d5qm93a3sZ9fhtY5yxjCrrLb1O3nB8N8XP1uYjoC83Wzys-CDaPPq9Z49vs',
 }
 
 headers = {
@@ -57,7 +57,7 @@ headers = {
     'origin': 'https://bean.jd.com',
     'pragma': 'no-cache',
     'priority': 'u=1, i',
-    'referer': 'https://bean.jd.com/myJingBean/list?spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDY0NTMuZG91',
+    'referer': 'https://bean.jd.com/myJingBean/list',
     'sec-ch-ua': '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
@@ -65,23 +65,22 @@ headers = {
     'sec-fetch-mode': 'cors',
     'sec-fetch-site': 'same-site',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36',
-    'Cookie': cookie
 }
 
 data = {
-  'h5st': '20251227161533986;zawg36w9ghd6j3j8;73c2f;tk03w95f11bdd18nP6OHNogas8TOtvO4PE0QRAEKLKvzM-Y9-nqjufqUCPusrt1C8i1PqgTGJxTH9KnFZN8nUpOtR5cL;fc803181e69deb79ca4f016ce51761a0;5.2;1766823328986;fZRCXZfT3U_HrRbH68uErVuIqc7D-h-T-h6I-hfZXxfTB5_ZzUrJ-hfZXx-ZwZuV9YOVpJeI-Y7IxJOT7geVwNuV88eVwZLUq9eTsJ_ZB5_ZxIdG6YLIqYfZB5hW-VbIvReVpFuJ-EeUtJLJrFeIrJOVpZOTsNLJvRuJwNOI-h-T-VKJroLJ_YfZB5hW-h_ZB5_ZtN6J-hfZXx-Zrp-VzN_ECMbG4IrKsB7ZB5_ZrYfZB5hW-FtPNo9Qv9MVZc9ZB5_Z0kbIzc7F-hfZXx-ZvV_G4E8ZB5_Z7g6ZBh-f1taZB5BZ0I9ZB5_ZudOE-YfZBhfZXx-VB5_ZwdOE-YfZBhfZXxfUwh-T-hOVsY7ZBhfZB5hWptfZnZ-VwN6J-hfZBh-f1ZPVK4cUvl7LwQ6ZB5_Z0kbIzc7F-hfZBh-f1heZnZfTsY7ZBhfZB5hWxh-T-FOE-YfZBhfZXx-Vvh-T-JOE-YfZBhfZXxfVB5_ZsN6J-hfZBh-f1heZnZfUsY7ZBhfZB5hWsZeZnZvVsY7ZBhfZB5hW-R_WwpfV-h-T-dOE-YfZBhfZXxfVB5_Z2E6ZBhfZB5hWsh-T-VaG-hfZBh-f1heZnZfG-hfZBh-f1heZnZfIqYfZBhfZX1aZnZfIzMbEpM7ZBh-f1taZB5BZ3Y6JfUtPa4qOoI9JCQ7H-h-T-ZeF-hfZBh-fmg-T-haF-hfZXx-ZtJeDB1eUrpLHKgvTxpfVwhfMTgvFqkbIz8rM-h-T-dLEuYfZB5xD;e422ebdf86af94a49519d9074d7d8c80;gRaW989Gy8bE_oLE7w-Gy8rFvM7MtoLI4wrJ1R6G88bG_wPD9k7J1RLHxgKJ',
+  'h5st': '20251227172509029;zawg36w9ghd6j3j8;73c2f;tk03w95f11bdd18nP6OHNogas8TOtvO4PE0QRAEKLKvzM-Y9-nqjufqUCPusrt1C8i1PqgTGJxTH9KnFZN8nUpOtR5cL;141b62d2818b0671e11a6b77e1397596;5.2;1766827504029;fZRCXZfT3U_HrRbH68uErVuIqc7D-h-T-h6I-hfZXxfTB5_ZzUrJ-hfZXx-ZwZuV9YOVpJeI-Y7IxJOT7geVwNuV88eVwZLUq9eTsJ_ZB5_ZxIdG6YLIqYfZB5hW-VbIvReVpFuJ-EeUtJLJrFeIrJOVpZOTsNLJvRuJwNOI-h-T-VKJroLJ_YfZB5hW-h_ZB5_ZtN6J-hfZXx-Zrp-VzN_ECMbG4IrKsB7ZB5_ZrYfZB5hW-FtUxdrKvp7Nuw7ZB5_Z0kbIzc7F-hfZXx-ZvV_G4E8ZB5_Z7g6ZBh-f1taZB5BZ0I9ZB5_ZudOE-YfZBhfZXx-VB5_ZwdOE-YfZBhfZXxfUwh-T-hOVsY7ZBhfZB5hWptfZnZ-VwN6J-hfZBh-f1ZfNdceDv1dUqV6ZB5_Z0kbIzc7F-hfZBh-f1heZnZfTsY7ZBhfZB5hWxh-T-FOE-YfZBhfZXxfVvh-T-JOE-YfZBhfZXxfVB5_ZsN6J-hfZBh-f1heZnZfUsY7ZBhfZB5hWpZeZnZvVsY7ZBhfZB5hW-R_WwpfV-h-T-dOE-YfZBhfZXxfVB5_Z2E6ZBhfZB5hWsh-T-VaG-hfZBh-f1heZnZfG-hfZBh-f1heZnZfIqYfZBhfZX1aZnZfIzMbEpM7ZBh-f1taZB5BZ3Y6JfUtPa4qOoI9JCQ7H-h-T-ZeF-hfZBh-fmg-T-haF-hfZXx-ZtJeDB1eUrpLHKgvTxpfVwhfMTgvFqkbIz8rM-h-T-dLEuYfZB5xD;77d0bec1c897ca17e81166c085290413;gRaW989Gy8bE_oLE7w-Gy8rFvM7MtoLI4wrJ1R6G88bG_wPD9k7J1RLHxgKJ',
   'uuid': '17668029305631544393914',
   'loginType': '3',
   'appid': 'asset-h5',
   'clientVersion': '1.0.0',
   'client': 'pc',
-  't': '1766823328983',
-  'body': '{"type":5,"eaId":"4KpUNjgQZtanUeeqbhMYjT47b9Fo","itemId":"1","extraType":"sign"}',
+  't': '1766827504004',
+  'body': '{"type":0,"eaId":"task"}',
   'functionId': 'pc_interact_sign_execute',
-  'x-api-eid-token': 'jdd03SWJPTXSPNC3YLWZEDIPA7YYXE55CHIHNYNII32REDFKHGUHXBPRHFGTNWPTIP3VIGEXNDKG47N5A6EBVWADELEDJ6EAAAAM3L3PMKVQAAAAACDNU33VUTT2RHUX',
+  'x-api-eid-token': 'jdd03SWJPTXSPNC3YLWZEDIPA7YYXE55CHIHNYNII32REDFKHGUHXBPRHFGTNWPTIP3VIGEXNDKG47N5A6EBVWADELEDJ6EAAAAM3L4QCZYAAAAAACLACKEGW2JCP3MX',
   'area': '1_2805_0_0'
 }
 
-response = requests.post('https://api.m.jd.com/', headers=headers, data=data)
+response = requests.post('https://api.m.jd.com/', headers=headers, cookies=cookies, data=data)
 
 print("PC签到结果："+response.text)
