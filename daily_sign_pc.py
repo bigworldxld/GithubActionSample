@@ -4,9 +4,8 @@ import requests
 cookie = os.environ.get("JD_COOKIE_PC")
 
 import requests
-
 cookies = {
-    '__jdv': '76161171|direct|-|none|-|1766802930564',
+    '^__jdv': '76161171^|direct^|-^|none^|-^|1766802930564',
     '__jdu': '17668029305631544393914',
     'areaId': '1',
     'ipLoc-djd': '1-2805-0-0',
@@ -16,17 +15,15 @@ cookies = {
     'jcap_dvzw_fp': 'xSovnXGl_ZvBCvEIUFflnODfZR3i9_ec_HqhVzf7laL5QSoJdWNf-sLwQCSJz-at0z9r7atoLVY6gBClGyxVCWXP4XY=',
     'whwswswws': '',
     'commonAddress': '4551928385',
-    'regionAddress': '1%2C72%2C2819%2C0',
+    'regionAddress': '1^%^2C72^%^2C2819^%^2C0',
     'b_webp': '1',
     'b_avif': '1',
     'autoOpenApp_downCloseDate_auto': '1766807397666_1800000',
     'autoOpenApp_downCloseDate_jd_homePage': '1766821711058_1',
-    'warehistory': '10135446986182,',
+    'warehistory': '^\\^10135446986182,^\\^',
     'b_dw': '375',
     'b_dh': '667',
     'b_dpr': '2.000000013623918',
-    '3AB9D23F7A4B3CSS': 'jdd03SWJPTXSPNC3YLWZEDIPA7YYXE55CHIHNYNII32REDFKHGUHXBPRHFGTNWPTIP3VIGEXNDKG47N5A6EBVWADELEDJ6EAAAAM3L3PMKVQAAAAACDNU33VUTT2RHUX',
-    '_gia_d': '1',
     'pt_st': '1_T_ebGKZnFE7fp62QLvkcDbQa7NepD5NQgCQ3ttt4lcW8HL4-3SNejAcOlppci7oKyc39NH8241IPD7BOh9_PY4_XRov9cbebS_feBW5mLIDIAUkriNOMfRznNB11i3k1UWQzc8DQnBmxR_0b5qEvWeNtxQAddWj7vvUFLhYcgAzdqDnYuBQziA4CkGqFelekTI2sxNFpx0k_xTdxMi004bLW1ScHl9uUmU7CEGK*',
     'TrackID': '1oIUJhUYjIncBKEvDbAQBWVdq2CWXe4SZ41CmcXq4euR7q74Xv1EfTuvQc1yTfH3sURIcxYnLYZJ3eB8mwjq0X5zpgIdEnHOwl2LRt9yP_rk',
     'thor': '9F78F5CB4FCD0C7DCCD66CEE8C5B28B427E4B00F6A0E2C713A957D1E266A2CE8DB85DB96F8A0CDC742C3F9C1D58FD52D208C55247A6AADD1EFCCA4AAA5559F5BF2677B0ECBEEC5925D8E4CCC34335A345BC539AA268174FDE6568BD832B2429ECF269800AEDAABC6A033D3FC632A9D64FFEC370A5FD73C5923E53B15B8D19B4157B8F4C0A731459B9795E9F15E8AB11186CC84D2C9F41F8A9C8667FD83860D25',
@@ -35,21 +32,21 @@ cookies = {
     'pin': 'jd_bFyOzGKCBbrj',
     'unick': 'u_5to9xq1ipqvl',
     'ceshi3.com': '000',
-    '_tp': '7uCzlC0AWm2%2BV4fNUZVFpQ%3D%3D',
+    '_tp': '7uCzlC0AWm2^%^2BV4fNUZVFpQ^%^3D^%^3D',
     '_pst': 'jd_bFyOzGKCBbrj',
     'wlfstk_smdl': 'w06bnossgs9i3i7aofbzhjafl1qgzarw',
-    'mail_times': '4%2C1%2C1766823285998',
-    'cn': '16',
+    'mail_times': '4^%^2C1^%^2C1766823285998',
     'umc_count': '1',
-    'shshshfpb': 'BApXWf3DXXf5A9iNnktYEJkrUWCjhAAgrBiTBLhlo9xJ1PdZfQoTwizXxqwDZEYRheSx9majnsaxsfrph7_kH4NMoMgm3r7ap67A',
-    'sdtoken': 'AAbEsBpEIOVjqTAKCQtvQu176RT8d5giC9K9uBwpSnzEqp0Pi7fqOkPRcIlncbd2W4XbG44GjUk34kDxR4nfqGiRdSRnVzmR0QXSWH-jc6Ty82n-VDpu3Mm3JjIUStSNOd9LwKSdPrs',
-    '__jda': '166561581.17668029305631544393914.1766802931.1766807394.1766821710.3',
-    '__jdc': '166561581',
-    '__jdb': '166561581.26.17668029305631544393914|3.1766821710',
-    'flash': '3_g3z8P9xFZOA4lWkFKe18cevMNRyxkuUqoJKjRmBMMwWFkgbaYKz7mQ5ebqrsAuiSrlOGnq-MLf-OTJ5ASZfeJEVY3mM2qA6mdimzGz2coGJKBTtDb6byGuzbjdkOBbjjO_LQF3VhrHs3RFr8klGsuRYiXXc5mqYlj_AG7PQhRv0Ck_9T5OVy',
     'source': 'PC',
     'platform': 'pc',
+    'shshshfpb': 'BApXWpzviXf5A3-9S2wQjYKeA6Zc7xzzPXTTV_qzo9xJ1MkV-Uo-25BYDQg',
+    'joyya': '1766823996.1766824027.29.1ckfhr9',
+    '3AB9D23F7A4B3CSS': 'jdd03SWJPTXSPNC3YLWZEDIPA7YYXE55CHIHNYNII32REDFKHGUHXBPRHFGTNWPTIP3VIGEXNDKG47N5A6EBVWADELEDJ6EAAAAM3L4QCZYAAAAAACLACKEGW2JCP3MX',
+    'flash': '3_fPTOf2Iqf7aeusW2QMF-gWn4qwRf_1JOBXoKwbfTEkXeP1UpuhhPRGBUuqc1hn-pEjjkqscF2NLwqX5mMc5B-zZuFmGCUyYxUp5YUoGe219w5DtSDfmsBQs65d5qm93a3sZ9fhtY5yxjCrrLb1O3nB8N8XP1uYjoC83Wzys-CDaPPq9Z49vs',
     '3AB9D23F7A4B3C9B': 'SWJPTXSPNC3YLWZEDIPA7YYXE55CHIHNYNII32REDFKHGUHXBPRHFGTNWPTIP3VIGEXNDKG47N5A6EBVWADELEDJ6E',
+    '__jda': '76161171.17668029305631544393914.1766802931.1766821710.1766827503.4',
+    '__jdc': '76161171',
+    '__jdb': '76161171.4.17668029305631544393914^|4.1766827503^',
 }
 
 headers = {
@@ -68,6 +65,7 @@ headers = {
     'sec-fetch-mode': 'cors',
     'sec-fetch-site': 'same-site',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36',
+    'Cookie': cookie
 }
 
 data = {
@@ -84,6 +82,6 @@ data = {
   'area': '1_2805_0_0'
 }
 
-response = requests.post('https://api.m.jd.com/', headers=headers, cookies=cookie, data=data)
+response = requests.post('https://api.m.jd.com/', headers=headers, data=data)
 
 print("PC签到结果："+response.text)
